@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">RecyclerViewTestDemo</string>
+    <string name="click_load">点击加载</string>
+    <string name="no_more">no_more</string>
+    <string name="loading">loading</string>
 </resources>
