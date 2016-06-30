@@ -35,15 +35,17 @@ public class MainActivity extends AppCompatActivity {
         MyAdapter myAdapter = new MyAdapter(this, arrayList);
         //添加头headview
         final RecyclerViewAdapterPaker recyclerViewAdapterPaker = new RecyclerViewAdapterPaker(myAdapter, MainActivity.this);
-        recyclerViewAdapterPaker.setLoadMore(new RecyclerViewAdapterPaker.ILoadMore() {
-            @Override
-            public void loadMore() {
-//                initData();
-                Toast.makeText(MainActivity.this, "loadMore", Toast.LENGTH_LONG).show();
-                recyclerViewAdapterPaker.setLoadMoreComplete();
-//                recyclerViewAdapterPaker.setIsEnd(true);//no_more
-            }
-        });
+        recyclerViewAdapterPaker.setCanLoadMore(false);
+        recyclerViewAdapterPaker.setIsEnd(true);
+//        recyclerViewAdapterPaker.setLoadMore(new RecyclerViewAdapterPaker.ILoadMore() {
+//            @Override
+//            public void loadMore() {
+////                initData();
+//                Toast.makeText(MainActivity.this, "loadMore", Toast.LENGTH_LONG).show();
+//                recyclerViewAdapterPaker.setLoadMoreComplete();
+////                recyclerViewAdapterPaker.setIsEnd(true);//no_more
+//            }
+//        });
         recyclerViewAdapterPaker.setHead(new IBaseView() {
             @Override
             public void onBindView() {
