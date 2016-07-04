@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
     private void initWidget() {
         RecyclerView mRecyclerView = (RecyclerView) findViewById(R.id.recyclerview);
 //        mRecyclerView.setLayoutManager(new LinearLayoutManager(this));//listview样式
-        mRecyclerView.setLayoutManager(new GridLayoutManager(this, 2));//gridview样式 两行
+        mRecyclerView.setLayoutManager(new GridLayoutManager(this, 1));//gridview样式 两行
 
 //        View view = LayoutInflater.from(this).inflate(R.layout.tv, null);
 //        mRecyclerView.addView(view);
@@ -75,7 +75,38 @@ public class MainActivity extends AppCompatActivity {
         arrayList.add("没的说了奶粉了看见审单发货看电视剧");
         arrayList.add("了肯德基风格算了可费劲了");
         arrayList.add("是丹佛文件分类看身份你们了深刻的");
-        arrayList.add("jflkjsldkfj");
+        arrayList.add("和离婚了的身份房水库将加快了");
+        arrayList.add("环境监控的沙发了客家话");
+        arrayList.add("没的说了奶粉了看见审单发货看电视剧");
+        arrayList.add("了肯德基风格算了可费劲了");
+        arrayList.add("是丹佛文件分类看身份你们了深刻的");
+        arrayList.add("和离婚了的身份房水库将加快了");
+        arrayList.add("环境监控的沙发了客家话");
+        arrayList.add("没的说了奶粉了看见审单发货看电视剧");
+        arrayList.add("了肯德基风格算了可费劲了");
+        arrayList.add("是丹佛文件分类看身份你们了深刻的");
+        arrayList.add("和离婚了的身份房水库将加快了");
+        arrayList.add("环境监控的沙发了客家话");
+        arrayList.add("没的说了奶粉了看见审单发货看电视剧");
+        arrayList.add("了肯德基风格算了可费劲了");
+        arrayList.add("是丹佛文件分类看身份你们了深刻的");
+        arrayList.add("和离婚了的身份房水库将加快了");
+        arrayList.add("环境监控的沙发了客家话");
+        arrayList.add("没的说了奶粉了看见审单发货看电视剧");
+        arrayList.add("了肯德基风格算了可费劲了");
+        arrayList.add("是丹佛文件分类看身份你们了深刻的");
+        arrayList.add("和离婚了的身份房水库将加快了");
+        arrayList.add("旅客的少年恢复了可");
+        arrayList.add("旅客的少年恢复了可");
+        arrayList.add("旅客的少年恢复了可");
+        arrayList.add("旅客的少年恢复了可");
+        arrayList.add("旅客的少年恢复了可");
+        arrayList.add("旅客的少年恢复了可");
+        arrayList.add("旅客的少年恢复了可");
+        arrayList.add("旅客的少年恢复了可");
+        arrayList.add("旅客的少年恢复了可");
+        arrayList.add("旅客的少年恢复了可");
+        arrayList.add("旅客的少年恢复了可");
         return arrayList;
     }
 }
